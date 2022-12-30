@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #903f1d;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 34px;
+    font
+    color: #fcc3ab;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+#current-date{
+    margin-bottom: 30px;
+}
+
+#calender{
+    background-color: #fcc3ab;
+    margin:10px 550px;
+    padding: 30px 100px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -264px;
+}
+#calender-data{
+    
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5,1fr);
+    
+}
+
+.last-month{
+
+    color: #8a8a8d;
+}
+
+input,select,button{
+    font-size: 22px;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 5px;
+    
+    border: solid;
+    border-color:#fcc3ab; 
+}
+
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+#input{
+    margin-left: 50px ;
+    margin-bottom: 100px;
+}
+
+.day{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

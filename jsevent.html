@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Img-Txt Hover</title>
+<style type="text/css">
+img{
+width: 371px;
+ height: 450px;
+ }
+#txt2{
+ display:none;
+}
+</style>
+</head>
+<body bgcolor="gray">
+ <center>
+<div id="main">
+<div id="image-text">
+<img src="chaneyol.jpg" id="img1">
+</div>
+<div id="head">
+<h1 id="txt1">Selena Gomez</h1>
+<h1 id="txt2">Rapper Chaneyol</h1>
+</div>
+</div>
+ </center>
+<script type="text/javascript">
+document.getElementById('main').addEventListener("mouseover",change1)
+document.getElementById('main').addEventListener("mouseout",change2)
+function change1(){
+document.getElementById('img1').src="chaneyol.jpg"
+document.getElementById('txt1').style.display="none"
+document.getElementById('txt2').style.display="block" 
+}
+function change2(){
+document.getElementById('img1').src="selena.jpg"
+document.getElementById('txt1').style.display="block"
+document.getElementById('txt2').style.display="none"
+}
+</script>
+</body>
+</html>
